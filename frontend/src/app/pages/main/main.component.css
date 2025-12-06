@@ -12,7 +12,10 @@
   width: 100%;
   margin-left: 10px;
   border-radius: 10px;
-  /* background-color: var(--bg-card-dark); */
+  background-color: var(--bg-card-dark);
   height: 100%;
   left: 405px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 3rem;
 }
