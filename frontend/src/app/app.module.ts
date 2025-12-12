@@ -12,6 +12,7 @@ import { SiderbarComponent } from './pages/siderbar/siderbar.component';
 import { CertificatesComponent } from './pages/certifications/certificates.component';
 import { TechnologiesComponent } from './pages/technologies/technologies.component';
 import { RouterModule } from '@angular/router';
+import { NavigationComponent } from './pages/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { RouterModule } from '@angular/router';
     SiderbarComponent,
     CertificatesComponent,
     TechnologiesComponent,
+    NavigationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [provideClientHydration()],
