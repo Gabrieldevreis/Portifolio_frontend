@@ -7,5 +7,24 @@
   height: 60px;
   border: 1px solid #ffffff1a;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.55), 0 0 25px rgba(139, 92, 246, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
 }
 
+.nav-item {
+  color: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+.nav-item i {
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  color: var(--primary-purple);
+  transform: translateY(-3px);
+}
+ 
