@@ -1,0 +1,62 @@
+.experiencias {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experiencias h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.experiencia-card {
+  background: #ffffff;
+  border-left: 6px solid #4f46e5;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.experiencia-card h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #111;
+}
+
+.empresa {
+  display: block;
+  font-size: 0.95rem;
+  color: #666;
+  margin: 8px 0 15px;
+}
+
+.experiencia-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.experiencia-card ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.experiencia-card ul li {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .experiencias {
+    padding: 40px 15px;
+  }
+
+  .experiencias h2 {
+    font-size: 1.6rem;
+  }
+}
