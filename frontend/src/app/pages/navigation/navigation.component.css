@@ -24,7 +24,7 @@
 }
 
 .nav-item:hover {
-  color: var(--primary-purple);
+  color: var(--purple);
   transform: translateY(-3px);
 }
  

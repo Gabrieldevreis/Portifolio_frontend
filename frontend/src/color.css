@@ -1,0 +1,11 @@
+:root {
+  /* --primary-purple: #8205e0; */
+  --purple: #4f46e5;
+  --white: #f0f8ff;
+  
+  /* --primary-cyan: #00e5ff; */
+  --bg-dark: #0a0a14;
+  --bg-card-dark: #16161f;
+  --text-light: #ffffff;
+  --text-muted: #a0a0b8;
+}
