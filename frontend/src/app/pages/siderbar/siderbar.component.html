@@ -1,20 +1,22 @@
 <div class="siderbar-container">
-   <div class="avatar">
-    <img src="../../../assets/photo.png" alt="my photo" />
+  <div class="avatar">
+    <img
+      [src]="profile.photo"
+      [alt]="profile.name"
+    />
   </div>
 
   <div class="profile">
-    <h2 class="name">Gabriel Reis</h2>
-    <p class="profile-role">Desenvolvedor Full Stack</p>
+    <h2 class="name">{{ profile.name }}</h2>
+    <p class="profile-role">{{ profile.role }}</p>
     <p class="profile-bio">
-      Transformando ideias em soluções digitais inovadoras com código limpo e
-      design excepcional.
+      {{ profile.bio }}
     </p>
   </div>
 
   <div class="social-links">
     <a
-      href="https://github.com/seuusuario"
+      [href]="profile.social.github"
       class="social-link"
       target="_blank"
       aria-label="GitHub"
@@ -22,8 +24,9 @@
     >
       <i class="fab fa-github"></i>
     </a>
+
     <a
-      href="https://linkedin.com/in/seuusuario"
+      [href]="profile.social.linkedin"
       class="social-link"
       target="_blank"
       aria-label="LinkedIn"
@@ -31,21 +34,23 @@
     >
       <i class="fab fa-linkedin-in"></i>
     </a>
+
     <a
-      href="mailto:seuemail@exemplo.com"
+      [href]="profile.social.email"
       class="social-link"
       aria-label="Email"
       data-tech="email"
     >
       <i class="fas fa-envelope"></i>
     </a>
+
     <a
-    href="/assets/cv-gabriel-reis.pdf"
-    class="cv-button"
-    download
-  >
-    <i class="fas fa-download"></i>
-    Baixar CV
-  </a>
+      [href]="profile.cv"
+      class="cv-button"
+      download
+    >
+      <i class="fas fa-download"></i>
+      Baixar CV
+    </a>
   </div>
 </div>
